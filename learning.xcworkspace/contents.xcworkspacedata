@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Function.playground">
+   </FileRef>
+   <FileRef
+      location = "group:if-else.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Operation.playground">
+   </FileRef>
+   <FileRef
       location = "group:Variable.playground">
    </FileRef>
 </Workspace>
