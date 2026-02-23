@@ -42,3 +42,30 @@ func customMinus2(
     lhs - rhs
 }
 let customSubtracts2 = customMinus2(10, 5)
+
+
+customAdd(value1: 10, value2: 15)
+@discardableResult
+func myCustomAdd(
+    _ lhs:Int,
+    _ rhs:Int
+)->Int{
+    lhs+rhs
+}
+myCustomAdd(30, 50)
+
+
+func doSomethingComplicated(width value: Int) -> Int{
+    func mainLogic(value: Int) -> Int{
+         value * 2
+    }
+    return mainLogic(value: value + 3)
+}
+doSomethingComplicated(width: 15)
+
+func getFullName(firstName:String = "Dara", lastName:String="Yang")->String{
+    "\(firstName) \(lastName)"
+}
+getFullName()
+getFullName(firstName: "Tong")
+getFullName(lastName: "U")
