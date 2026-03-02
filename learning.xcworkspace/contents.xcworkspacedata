@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Enumeratiuons.playground">
+   </FileRef>
+   <FileRef
       location = "group:Structure.playground">
    </FileRef>
    <FileRef

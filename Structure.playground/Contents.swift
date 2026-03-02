@@ -45,3 +45,33 @@ mutableCar.drive(speed: 20)
 mutableCar.currentSpeed
 copy.currentSpeed
 
+
+struct LivingThing{
+    init(){
+        "I'm a Living Thing!"
+    }
+}
+
+//struct Animal: LivingThing{
+//
+//}
+
+struct Bike{
+    let manufacturer:String
+    let currentSpeed:Int
+    func copy(currentSpeed:Int)-> Bike{
+        Bike(
+            manufacturer: self.manufacturer,
+             currentSpeed: currentSpeed
+        )
+    }
+}
+
+let bike1 = Bike(
+    manufacturer: "Hd",
+    currentSpeed: 20
+)
+
+var bike2 = bike1.copy(currentSpeed: 30)
+bike1.currentSpeed
+bike2.currentSpeed
