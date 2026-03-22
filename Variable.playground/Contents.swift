@@ -1,7 +1,7 @@
 import Foundation
 
-let firstName="Tong"
-let lastName="Chheang"
+let firstName = "Tong"
+let lastName = "Chheang"
 var name = [firstName,lastName];/// if we use let, it can't use name.append. because let is private
 //name=["No","Yes"]
 name.append("ENea")
